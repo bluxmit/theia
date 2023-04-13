@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/opt/theia/env/lib/node_modules'
+export NPM_CONFIG_PREFIX='/opt/theia/env'
+export npm_config_prefix='/opt/theia/env'
+exec 'env/bin/node' "$@"
